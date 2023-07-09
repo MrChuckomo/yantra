@@ -1,5 +1,7 @@
 # yantra
 
+![example](data/examples/mandala.png)
+
 # Development
 
 ## Python Environment
