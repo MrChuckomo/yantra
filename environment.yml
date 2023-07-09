@@ -1,0 +1,10 @@
+name: yantra_mandala
+channels:
+    - conda-forge
+    - defaults
+    - anaconda
+dependencies:
+    - python=3.10
+    - pip
+    - pip:
+        - -r requirements.txt
