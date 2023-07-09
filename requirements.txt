@@ -3,3 +3,4 @@ ipywidgets==7.6.5
 matplotlib
 # mobilechelonian
 Pillow==10.0.0
+# svglib==1.5.1
