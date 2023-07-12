@@ -1,6 +1,25 @@
 # yantra
 
-![example](data/examples/mandala.png)
+<table>
+<tbody>
+    <tr>
+        <td><img src="data/examples/mandala.png" alt="example"/></td>
+        <td><img src="data/examples/mandala2.png" alt="example"/></td>
+        <td><img src="data/examples/mandala3.png" alt="example"/></td>
+    </tr>
+    <tr>
+        <td><img src="data/examples/mandala5.png" alt="example"/></td>
+        <td><img src="data/examples/mandala6.png" alt="example"/></td>
+        <td><img src="data/examples/mandala7.png" alt="example"/></td>
+    </tr>
+    <tr>
+        <td><img src="data/examples/mandala8.png" alt="example"/></td>
+        <td><img src="data/examples/mandala9.png" alt="example"/></td>
+        <td><img src="data/examples/mandala10.png" alt="example"/></td>
+    </tr>
+</tbody>
+</table>
+
 
 # Development
 
