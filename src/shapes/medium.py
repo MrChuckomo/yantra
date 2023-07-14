@@ -51,3 +51,17 @@ def leaf(size: int=300, fill: bool=False):
     # tur.penup()
     # tur.home()
     # tur.pendown()
+
+
+def line_dots(length: int=100, angle: int=90, circle_r: int=10):
+    tur.up()
+    tur.home()
+    tur.down()
+
+    tur.left(angle)
+    tur.forward(length)
+    tur.circle(circle_r)
+    tur.right(90)
+    tur.circle(circle_r)
+    tur.right(90)
+    tur.circle(circle_r)

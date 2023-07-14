@@ -1,3 +1,4 @@
+[canvas]
 [canvas.bg]
 color = 'white'
 [canvas.pen]
@@ -5,8 +6,8 @@ color = 'black'
 
 [edges]
 shape = [
-    {hash_square = 600},
-    {hash_square = 620}
+    {hash_square = 480},
+    {hash_square = 500}
 ]
 
 [inner]
@@ -16,5 +17,25 @@ shape = [
 
     {inner_circles = 90},
     {inner_circles = 60},
-    {inner_circles = 25}
+    {inner_circles = 25},
+
+    # Left-side
+    {line_dots = {length=50, angle=180, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=155, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=205, circle_r=5}, rep=1},
+
+    # Right-side
+    {line_dots = {length=50, angle=0, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=25, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=335, circle_r=5}, rep=1},
+
+    # Up-side
+    {line_dots = {length=50, angle=90, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=65, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=115, circle_r=5}, rep=1},
+
+    # Down-side
+    {line_dots = {length=50, angle=270, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=295, circle_r=5}, rep=1},
+    {line_dots = {length=40, angle=245, circle_r=5}, rep=1},
 ]

@@ -13,13 +13,14 @@ from pathlib import Path
 from typing_extensions import Annotated
 
 from src.shapes.basic import hash_square
-from src.shapes.medium import inner_circles, leaf
+from src.shapes.medium import inner_circles, leaf, line_dots
 
 
 # ---------------------------------------------------------------------------------------------------------------------
 
 MAP = {
     'leaf': leaf,
+    'line_dots': line_dots,
     'hash_square': hash_square,
     'inner_circles': inner_circles
 }
