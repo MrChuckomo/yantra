@@ -20,6 +20,37 @@
 </tbody>
 </table>
 
+# Usage
+## Define your Yantra in a `toml` file
+
+```toml
+[canvas.bg]
+color = 'white'
+[canvas.pen]
+color = 'black'
+
+[edges]
+shape = [
+    {hash_square = 600},
+    {hash_square = 620}
+]
+
+[inner]
+shape = [
+    {leaf = {size=300, fill=false}, rep=50},
+    {leaf = {size=200, fill=false}, rep=50},
+
+    {inner_circles = 90},
+    {inner_circles = 60},
+    {inner_circles = 25}
+]
+```
+
+## Run Python CLI
+
+```bash
+python yangen.py --input-file y1.toml --speed 100
+```
 
 # Development
 
