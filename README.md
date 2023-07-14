@@ -8,7 +8,7 @@
         <td><img src="data/examples/mandala3.png" alt="example"/></td>
     </tr>
     <tr>
-        <td><img src="data/examples/mandala5.png" alt="example"/></td>
+        <td><img src="data/examples/mandala3.svg" alt="example"/></td>
         <td><img src="data/examples/mandala6.png" alt="example"/></td>
         <td><img src="data/examples/mandala7.png" alt="example"/></td>
     </tr>

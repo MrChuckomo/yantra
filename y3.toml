@@ -1,0 +1,28 @@
+[canvas]
+[canvas.bg]
+color = 'white'
+[canvas.pen]
+color = 'black'
+
+[edges]
+shape = [
+    {triangle_frame = false},
+]
+
+[inner]
+shape = [
+
+    {hash_square = 200},
+    {hash_square = 210},
+    {hash_square = 300},
+    {hash_square = 310},
+    {hash_square = 480},
+    {hash_square = 500},
+
+    {leaf = {size=300, fill=false}, rep=50},
+    # {leaf = {size=200, fill=false}, rep=50},
+
+    {inner_circles = 90},
+    {inner_circles = 60},
+    {inner_circles = 25},
+]
