@@ -3,8 +3,8 @@
 <table>
 <tbody>
     <tr>
-        <td><img src="data/examples/mandala.png" alt="example"/></td>
-        <td><img src="data/examples/mandala2.png" alt="example"/></td>
+        <td><img src="data/examples/mandala.svg" alt="example"/></td>
+        <td><img src="data/examples/mandala2.svg" alt="example"/></td>
         <td><img src="data/examples/mandala3.png" alt="example"/></td>
     </tr>
     <tr>

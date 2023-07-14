@@ -13,12 +13,16 @@ from pathlib import Path
 from typing_extensions import Annotated
 
 from src.shapes.basic import hash_square
+from src.shapes.frame import plus_frame, corner_frame, triangle_frame
 from src.shapes.medium import inner_circles, leaf, line_dots
 
 
 # ---------------------------------------------------------------------------------------------------------------------
 
 MAP = {
+    'plus_frame': plus_frame,
+    'corner_frame': corner_frame,
+    'triangle_frame': triangle_frame,
     'leaf': leaf,
     'line_dots': line_dots,
     'hash_square': hash_square,
@@ -66,10 +70,10 @@ app = typer.Typer()
 
 @app.command()
 def hello(
-    input_file: Annotated[Path, typer.Option(help='*.toml file')],
+    input: Annotated[Path, typer.Option(help='*.toml file')],
     speed: int=100,
 ):
-    data = toml.loads(input_file.read_text())
+    data = toml.loads(input.read_text())
 
     tur.speed(speed)
     tur.hideturtle()

@@ -38,3 +38,34 @@ def hash_square(d):
     tur.penup()
     tur.home()
     tur.pendown()
+
+def diamond(size: int=50):
+    tur.right(45)
+    tur.forward(size)
+    tur.right(90)
+    tur.forward(size)
+
+    tur.right(90)
+    tur.forward(size)
+    tur.right(90)
+    tur.forward(size)
+
+    tur.penup()
+    tur.home()
+    tur.pendown()
+
+def triangle_line(reps: int=10, size: int=50):
+    tur.right(45)
+    tur.forward(size)
+    tur.right(90)
+    tur.forward(size)
+
+    for _ in range(0, reps):
+        tur.left(90)
+        tur.forward(size)
+        tur.right(90)
+        tur.forward(size)
+
+    tur.penup()
+    tur.home()
+    tur.pendown()
