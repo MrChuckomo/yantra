@@ -74,9 +74,12 @@ For Linux: You can install Ghostscript via the package manager for your Linux di
 
 
 
-
 ## Referecnes
 
 - https://realpython.com/beginners-guide-python-turtle/
 - [Convert EPS to SVG](https://convertio.co/de/download/185a3a1681360b6814b01239e3ab84037a4e4f/)
 - https://pythonturtle.academy/tutorial-drawing-a-flower-petal-or-a-leaf-with-python-turtle/
+
+# Social 
+
+- [Instagram](https://www.instagram.com/yantra.mandala.art/)
