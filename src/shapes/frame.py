@@ -5,6 +5,7 @@ Author       : Alexander Kettler
 Creation Date: 14-Jul-2023
 """
 
+import math
 import turtle as tur
 
 from src.shapes.basic import square, triangle_line
@@ -143,3 +144,23 @@ def triangle_frame(fill: bool=False):
     tur.goto(315, 315)
     tur.down()
     square(630)
+
+def circle_edge(radius: int=100, points: int=50, shape_dim: int=10):
+    tur.goto(0, 0)
+
+    for i in range(points + 1):
+        # theta = i * (math.pi / (2 * points))  # 1/4 circle
+        theta = i * (2 * math.pi / points)  # full circle
+
+        x = radius * math.cos(theta)
+        y = radius * math.sin(theta)
+
+        tur.up()
+        tur.goto(x, y)
+        tur.down()
+
+        tur.circle(shape_dim)
+
+    tur.up()
+    tur.home()
+    tur.down()

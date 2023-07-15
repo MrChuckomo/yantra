@@ -11,6 +11,34 @@ import turtle as tur
 
 # ---------------------------------------------------------------------------------------------------------------------
 
+def hexagon(edge_length: int):
+    tur.up()
+    tur.forward(edge_length)
+
+    tur.right(90)
+    tur.down()
+    tur.forward(edge_length / 2)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length)
+    tur.right(45)
+    tur.forward(edge_length / 2)
+
+    tur.up()
+    tur.home()
+    tur.down()
+
 def square(d, rotation: float=90.0):
     tur.right(angle=rotation)
     tur.forward(d)
