@@ -65,3 +65,11 @@ def line_dots(length: int=100, angle: int=90, circle_r: int=10):
     tur.circle(circle_r)
     tur.right(90)
     tur.circle(circle_r)
+
+def hex_star(size: int=100):
+    for i in range(6):
+        tur.forward(size)
+        tur.right(60)
+        for _ in range(6):
+            tur.forward(size / 2)
+            tur.right(60)
